@@ -52,6 +52,12 @@
 
 // MyForEach(array,printValue)
 
-const listNum = [3,5,7,9,12];
-const double = listNum.map(n => n * 2);
-console.log(double);
+// q1
+// const listNum = [3,5,7,9,12];
+// const double = listNum.map(n => n * 2);
+// console.log(double);
+
+// q2
+const list = [3,5,4,98,56,33,65,72]
+const onlyEvenValue = list.filter(element => element % 2 === 0)
+console.log(onlyEvenValue);
