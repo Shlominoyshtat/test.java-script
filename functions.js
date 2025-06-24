@@ -58,6 +58,20 @@
 // console.log(double);
 
 // q2
-const list = [3,5,4,98,56,33,65,72]
-const onlyEvenValue = list.filter(element => element % 2 === 0)
-console.log(onlyEvenValue);
+// const list = [3,5,4,98,56,33,65,72]
+// const onlyEvenValue = list.filter(element => element % 2 === 0)
+// console.log(onlyEvenValue);
+
+// q3
+function showFirstAndLast(arr){
+    let result = [];
+    if(typeof arr[0] === "string"){
+        result.push(arr[0]);
+    }
+    if(typeof arr[arr.length - 1 && arr.length >= 1]){
+        result.push(arr[arr.length -1])
+    }
+    return result;
+}
+const fun = showFirstAndLast(["rer",45,"gsk","kghgk","iexnm"])
+console.log(fun);

@@ -47,7 +47,7 @@
 // }
 // console.log(result);
 
-const array = [2 , 4, "sh", false];
+// const array = [2 , 4, "sh", false];
 // array.unshift(8);
 // array.shift();
 // array.push(7);
